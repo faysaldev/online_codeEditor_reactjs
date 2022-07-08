@@ -14,3 +14,20 @@
    height: 100% !important;
  }
 
+
+
+
+@media only screen and (max-width: 500px) {
+    .section{
+      display: block;
+      flex-direction: column;
+      min-height: 50vh;
+
+    }
+
+    .section.top-section{
+            flex-direction: column;
+            max-height: 70%;
+            overflow-y: scroll;
+    }
+}
